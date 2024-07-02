@@ -16,7 +16,7 @@ body,#rightCol {
     color: #568cf9;
 }
 
-div.row_1 ::after {
+div.row_1  {
     background-color: #ffffff;
 }
 div.row_1:hover {
@@ -35,6 +35,7 @@ div.active_row {
 
 a.sidebar {
     background-color: #ffffff;
+    font-size: 14px;
 }
 
 a.sidebar:hover {
