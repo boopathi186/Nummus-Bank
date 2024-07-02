@@ -1,9 +1,14 @@
+body,#rightCol {
+    background-color: #e6ebf2!important;
+}
+
 .navbar,
 .column1,
 .graph,
 .overview,
 .user,
-.bell {
+.bell ,
+div.row_1{
     background-color: #ffffff;
     cursor: pointer;
 }
@@ -11,55 +16,20 @@
 .icon-menu {
     color: #568cf9;
 }
-
-div.row_1 {
-    background-color: #ffffff;
- position: relative;
-    transition: all 0.3s ease-in-out;
-}
-
 div.row_1:hover {
     background-color: #6492dc;
     color: aliceblue;
 }
-  
-div.row_1 ::after {
-    content: '';
-    position: absolute;
-    right: -15px; 
-    top: 50%;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    border-left: 15px solid #6492dc;
-    opacity: 0;
- 
-  }
-  
-div.row_1 :hover::after {
-    opacity: 1;
-  }
-  
 
 span.icon-menu:hover {
     color: aliceblue;
 }
 
 div.active_row {
-    position: relative;
     background-color: #6492dc;
     color: white;
 }
-div.active_row ::after {
-    content: '';
-    position: absolute;
-    right: -15px; 
-    top: 50%;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    border-left: 15px solid #539bf5;
-    opacity: 1;
-    
-  }
+
 
 a.sidebar {
     background-color: #ffffff;
