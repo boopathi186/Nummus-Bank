@@ -91,3 +91,12 @@ table {
     list-style-type: disc;
     color: #ff3e03;
 }
+@media screen and (min-width:1200px){
+    div.inner_row{
+      height: 94%;
+    }
+}
+*::-webkit-scrollbar
+{
+    display: none;
+}
