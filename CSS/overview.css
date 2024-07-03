@@ -12,6 +12,9 @@ div.row_1{
     background-color: #ffffff;
     cursor: pointer;
 }
+.column1{
+  background-color: #ffffff;
+}
 .icon-menu {
     color: #568cf9;
 }
@@ -33,6 +36,7 @@ div.active_row {
 a.sidebar {
     background-color: #ffffff;
     font-size: 14px;
+    width: 100%;
     
 }
 
@@ -92,12 +96,22 @@ table {
     color: #ff3e03;
 }
 @media screen and (min-width:1200px) {
-    div.inner_row{
+  div.inner_row{
       height: 94%;
     }
   
 }
+@media screen and (min-width:1500px) {
+    div.inner_row{
+        height: 96%;
+      }
+    
+  }
 *::-webkit-scrollbar
 {
     display: none;
+}
+.menu{
+   width:16.6%;
+   
 }
